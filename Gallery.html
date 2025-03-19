@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negros Occidental High School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+    text-align: center;
+    background-image: url('Gallery/nohs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh;
+    margin: 0; 
+    padding: 0;
+
+
+
+}
+
+
+        .icon-bar img {
+            height: 60px;
+
+        }
+
+
+
+        .footer {
+            background-color: maroon;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+        }  
+
+        .icon-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: maroon;
+            padding: 10px 20px;
+            height: 80px;
+        }
+
+        .icon-bar a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        .icon-bar a:hover {
+            background-color: darkred;
+            border-radius: 5px;
+        }
+
+        h3 {
+            font-size: 50px;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-family:arial;
+            text-align: center;
+            text-shadow:
+            2px -1px 0 black,
+            2px -1px 0 black,
+            2px 1px 0 black,
+            2px 1px 0 black;
+        }
+
+       
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+           border: 10px solid maroon;
+        }
+
+       
+        .mySlides {
+            display: none;
+        }
+
+        
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 20px;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .prev {
+    left: -80px; 
+}
+
+.next {
+    right: -80px; 
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+       
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color:white;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+            background-color: black;
+        }
+
+       
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.0s;
+        }
+
+        @keyframes fade {
+            from { opacity: .4; }
+            to { opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="icon-bar">
+     <a href="Home.html"><i class="fa fa-home"></i> Home</a>
+    <a href="Gallery.html"><i class="fa fa-photo"></i> Gallery</a>
+    <a href="News.html"><i class="fa fa-calendar"></i> News</a>
+    <a href="About.html"><i class="fa fa-info-circle"></i> About</a>
+    <a href="Web Team.html">
+    <img src="Gallery/peoplepowers11.png" alt="Web Team Icon" style="height: 20px; width: 20px; vertical-align: middle;"> Web Team</a>
+    
+</div>
+
+<h3>August's Event 2025</h3>
+
+
+<div class="slideshow-container" id="slideshow1">
+    <div class="mySlides fade slideshow1">
+        <img src="Gallery/b2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow1">
+        <img src="Gallery/b3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow1">
+        <img src="Gallery/b4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow1">
+        <img src="Gallery/b5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow1">
+        <img src="Gallery/b6.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 'slideshow1')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow1')">&#10095;</a>
+</div>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(2, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(3, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(4, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(5, 'slideshow1')"></span>
+
+</div>
+
+<h3>October's Event 2025</h3>
+
+
+<div class="slideshow-container" id="slideshow2">
+    <div class="mySlides fade slideshow2">
+        <img src="Gallery/c2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow2">
+        <img src="Gallery/c3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow2">
+        <img src="Gallery/c4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow2">
+        <img src="Gallery/c5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow2">
+        <img src="Gallery/c6.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 'slideshow2')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow2')">&#10095;</a>
+</div>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'slideshow2')"></span>
+    <span class="dot" onclick="currentSlide(2, 'slideshow2')"></span>
+    <span class="dot" onclick="currentSlide(3, 'slideshow2')"></span>
+    <span class="dot" onclick="currentSlide(4, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(5, 'slideshow1')"></span>
+</div>
+<h3>January's Event 2025</h3>
+
+<!-- Third Slideshow -->
+<div class="slideshow-container" id="slideshow3">
+    <div class="mySlides fade slideshow3">
+        <img src="Gallery/d2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow3">
+        <img src="Gallery/d3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow3">
+        <img src="Gallery/d4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow3">
+        <img src="Gallery/d5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow3">
+        <img src="Gallery/d6.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 'slideshow3')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow3')">&#10095;</a>
+</div>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'slideshow3')"></span>
+    <span class="dot" onclick="currentSlide(2, 'slideshow3')"></span>
+    <span class="dot" onclick="currentSlide(3, 'slideshow3')"></span>
+    <span class="dot" onclick="currentSlide(4, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(5, 'slideshow1')"></span>
+</div>
+
+<h3>February's Event 2025</h3>
+
+
+<div class="slideshow-container" id="slideshow4">
+    <div class="mySlides fade slideshow4">
+        <img src="Gallery/f2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow4">
+        <img src="Gallery/f3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow4">
+        <img src="Gallery/f8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow4">
+        <img src="Gallery/f5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow4">
+        <img src="Gallery/f6.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 'slideshow4')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow4')">&#10095;</a>
+</div>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'slideshow4')"></span>
+    <span class="dot" onclick="currentSlide(2, 'slideshow4')"></span>
+    <span class="dot" onclick="currentSlide(3, 'slideshow4')"></span>
+    <span class="dot" onclick="currentSlide(4, 'slideshow1')"></span>
+    <span class="dot" onclick="currentSlide(5, 'slideshow1')"></span>
+</div>
+
+<h3>March's Event 2023</h3>
+
+
+<div class="slideshow-container" id="slideshow5">
+    <div class="mySlides fade slideshow5">
+        <img src="Gallery/g2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow5">
+        <img src="Gallery/g3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow5">
+        <img src="Gallery/g4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow5">  
+        <img src="Gallery/g5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade slideshow5">
+        <img src="Gallery/g6.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 'slideshow5')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow5')">&#10095;</a>
+</div>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, 'slideshow5')"></span>
+    <span class="dot" onclick="currentSlide(2, 'slideshow5')"></span>
+    <span class="dot" onclick="currentSlide(3, 'slideshow5')"></span>
+    <span class="dot" onclick="currentSlide(4, 'slideshow5')"></span>
+    <span class="dot" onclick="currentSlide(5, 'slideshow5')"></span>
+</div>
+
+
+
+
+<script>
+    let slideIndexes = {
+        slideshow1: 1,
+        slideshow2: 1,
+        slideshow3: 1,
+        slideshow4: 1,
+        slideshow5: 1 
+    };
+
+    function plusSlides(n, slideshow) {
+        showSlides(slideIndexes[slideshow] += n, slideshow);
+    }
+
+    function currentSlide(n, slideshow) {
+        showSlides(slideIndexes[slideshow] = n, slideshow);
+    }
+
+    function showSlides(n, slideshow) {
+        let slides = document.getElementsByClassName(slideshow);
+        let dots = document.querySelectorAll(`#${slideshow} ~ div .dot`);
+
+        if (n > slides.length) { slideIndexes[slideshow] = 1; }
+        if (n < 1) { slideIndexes[slideshow] = slides.length; }
+
+        for (let slide of slides) {
+            slide.style.display = "none";
+        }
+        for (let dot of dots) {
+            dot.className = dot.className.replace(" active", "");
+        }
+
+        slides[slideIndexes[slideshow] - 1].style.display = "block";
+        dots[slideIndexes[slideshow] - 1].className += " active";
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        showSlides(1, 'slideshow1');
+        showSlides(1, 'slideshow2');
+        showSlides(1, 'slideshow3');
+        showSlides(1, 'slideshow4');
+        showSlides(1, 'slideshow5'); 
+    });
+</script>
+
+
+<div class="footer">
+    &copy; 2025 Negros Occidental High School | All Rights Reserved
+</div>
+
+</body>
+</html>

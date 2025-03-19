@@ -1,0 +1,284 @@
+
+
+<!DOCTYPE html>
+<!-- saved from url=(0085)file:///C:/Users/Jeanette/WPS%20Cloud%20Files/474158285/practice%20website/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negros Occidental High School</title>
+    <link rel="icon" type="image/x-icon" href="/WEBSITE/LOGO2.jpg">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+
+        html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+        .icon-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: maroon;
+            padding: 10px 20px;
+            height: 80px;
+        }
+
+        .icon-bar img {
+            height: 60px;
+        }
+
+        .icon-bar a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        .icon-bar a:hover {
+            background-color: darkred;
+            border-radius: 5px;
+        }
+
+       
+        .background {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            background: url("Home/nohs123.jpg") center/cover no-repeat;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-text {
+            position: relative;
+            color: ghostwhite;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            z-index: 2;
+        }
+
+        .content {
+            text-align: center;
+            padding: 40px 20px;
+            background-color:#f1efc1;
+        }
+
+        .content h2 {
+            color: maroon;
+            font-size: 28px;
+        }
+
+        .content p {
+            font-size: 25px;
+            color: darkred;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        
+        .aftercontent {
+            position: relative;
+            width: 100%;
+            height: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            overflow: hidden;
+
+        }
+
+        .aftercontent video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .aftercontent .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 2;
+        }
+
+        .aftercontent h1,
+        .aftercontent p {
+            position: relative;
+            z-index: 3;
+        }
+
+        
+        .news-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: darkred;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 350px;
+           
+        }
+
+        .card-inner {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            position: relative;
+
+        }
+
+        .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+        .card-front,
+         {
+        position: absolute;
+        backface-visibility: hidden;
+        width: 100%;
+        height: 100%;
+
+}
+
+
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            color: maroon;
+            font-size: 25px;
+
+            }
+
+        .card p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: maroon;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    
+    <div class="icon-bar">
+     <a href="Home.html"><i class="fa fa-home"></i> Home</a>
+    <a href="Gallery.html"><i class="fa fa-photo"></i> Gallery</a>
+    <a href="News.html"><i class="fa fa-calendar"></i> News</a>
+    <a href="About.html"><i class="fa fa-info-circle"></i> About</a>
+    <a href="Web Team.html">
+    <img src="Home/peoplepowers11.png" alt="Web Team Icon" style="height: 20px; width: 20px; vertical-align: middle;"> Web Team</a>
+</div>
+
+
+   
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Welcome to Negros Occidental High School</h1>
+            <p>Excellence. Leadership. Integrity.</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>About NOHS</h2>
+        <p>Negros Occidental High School (NOHS) is a premier institution dedicated to excellence in education. We provide quality learning experiences that shape future leaders and innovators since 1991.</p>
+    </div>
+
+    <!-- After Content Section with Video Background -->
+    <div class="aftercontent">
+        <video autoplay="" loop="" muted="" playsinline="">
+            <source src="https://video.xx.fbcdn.net/v/t42.3356-2/484211411_9546889448704989_4108153557895458533_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=4f86bc&_nc_eui2=AeGAB0tbA6_lRmmZyYwEP2LVqfxI9DbuPyup_Ej0Nu4_K06O2RvRtIuZY_c9MWo6h0s4A0ch2TX_JV1E9FXJqZTD&_nc_ohc=Dx6Y5OtUk6QQ7kNvgEI0gk7&_nc_oc=AdiVf8HlzmZenD1uS8jfTAw34NGhYyTDc0kkEAo8UjI6AJVFxZaUpBBpNos0APkAS1s&_nc_zt=28&_nc_ht=scontent.fmnl8-3.fna&_nc_gid=AZtURvTkuodBguGlKIQPV70&oh=03_Q7cD1wGptYH8aGTypaIiHiMt_lc6wY1bWa7DTsCEn8j0t2o8kw&oe=67D583CF&dl=1" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+        <h1>Negros Occidental High School is a public secondary educational institution and oldest public secondary school in the province located in Bacolod, Negros Occidental, in the Philippines that was founded since 1902.
+        
+    </h1></div>
+
+    <!-- News Section -->
+    <div class="news-section">
+    <a href="News.html" class="card-link">
+        <div class="card">
+            <img src="Home/ISPORTS.jpg" alt="News 1">
+            <h3>BALITANG ISPORTS | NOHS Badminton Doubles pasok sa Palarong Pambansa</h3>
+            <p>Muling namayagpag ang tambalan nina Rey Nier Andrew Dalimo-os at Aj Lorenz Jurada sa Western Visayas Regional Athletic Association (WVRAA) at napasakamay ang gintong medalya; Badminton Secondary Boys Doubles na ginanap sa Unibersidad ng Antique, Marso 6.</p>
+        </div>
+    </a>
+
+    <a href="News.html" class="card-link">
+        <div class="card">
+            <img src="Home/PAGE.jpg" alt="News 2">
+            <h3>Best Facebook Page</h3>
+            <p>Nasungkit muli ng Negros Occidental High School - Ang Aninag ang kampeonato sa kategoryang 'Best Facebook Page' sa idinaraos na College Press Conference and Awards (COPRE) 2024, Nobyembre 28.</p>
+        </div>
+    </a>
+
+    <a href="News.html" class="card-link">
+        <div class="card">
+            <img src="Home/TUPNOHS.jpg" alt="News 3">
+            <h3>BALITANG PAMPAARALAN | TUPSTAT 2025 sa NOHS pinangasiwaan</h3>
+            <p>Umabot sa 440 mag-aaral ang sumubok sa taunang Admission Testing ng Technological University of the Philippines - Visayas (TUP-V) sa Negros Occidental High School (NOHS), Marso 10.</p>
+        </div>
+    </a>
+</div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 Negros Occidental High School | All Rights Reserved
+    </div>
+
+
+</div>
+</body>
+</html>

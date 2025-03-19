@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negros Occidental High School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+   
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.background {
+    background-image: url('About/shs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+    width: 100%;
+    height: 100vh; 
+}
+
+}
+
+.overlay {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(128, 0, 0, 1);
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+ .icon-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: maroon;
+            padding: 10px 20px;
+            height: 80px;
+        }
+        .icon-bar img {
+            height: 60px;
+        }
+
+.icon-bar a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 8px 12px;
+            transition: 0.3s;
+        }
+
+        .icon-bar i {
+    font-size: 20px; 
+}
+
+.icon-bar a:hover {
+            background-color: darkred;
+            border-radius: 5px;
+        }
+
+
+.space {
+    width: 100%;
+    height: 25px;
+    background-color: maroon;
+}
+
+.about-container {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url('About/background bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+
+.about-container p {
+    color: black;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.container2 {
+    width: 100%;
+    background-color: maroon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.alma-matter,
+.prayer {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.alma-matter p,
+.prayer p {
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+}
+
+.container3 {
+    width: 100%;
+    background-image: url('About/barredo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container3 h1 {
+    color: maroon;
+    font-size: 2.5rem;
+}
+
+.container3 p {
+    font-size: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 50px auto;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-image: url('About/geoge.jpg');
+    background-size: cover;
+}
+
+.flip-card-back {
+    background-image: url('About/barredo2.jpg');
+    background-size: cover;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    color: maroon;
+}
+.principals {
+            background-image: url('About/');
+            background-repeat: no-repeat;
+            background-size: 100% 800px;
+            width: 100%;
+            height: 800px;
+        }
+
+        .principals h1 {
+            color: maroon;
+            font-size: 20px;
+        }
+
+        .principals h2 {
+            color:maroon;
+            font-size: 20px;
+        }
+
+        .principals p {
+            color: black;
+            font-size: 20px;
+        }
+
+        .og-principals {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+
+
+        .footer {
+            background-color: maroon;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+        }  
+        .title-overlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: maroon;
+    font-size: 3rem;
+    font-weight: bold;
+    
+    text-shadow:
+            2px -1px 0 black,
+            2px -1px 0 black,
+            2px 1px 0 black,
+            2px 1px 0 black;
+}
+
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="icon-bar">
+     <a href="Home.html"><i class="fa fa-home"></i> Home</a>
+    <a href="Gallery.html"><i class="fa fa-photo"></i> Gallery</a>
+    <a href="News.html"><i class="fa fa-calendar"></i> News</a>
+    <a href="About.html"><i class="fa fa-info-circle"></i> About</a>
+    <a href="Web Team.html">
+    <img src="About/peoplepowers11.png" alt="Web Team Icon" style="height: 20px; width: 20px; vertical-align: middle;"> Web Team</a>
+    </div>
+
+    <div class="header-container">
+        <div class="background"></div>
+        <div class="overlay"></div>
+        <div class="page-title">
+    <div class="title-overlay">
+        <h1>About</h1>
+    <h2>Negros Occidental High School</h2>
+</div>
+
+        
+
+        
+    </div>
+
+    <div class="space"></div>
+
+    <div class="about-container-bg">
+        <div class="about-container">
+            <div class="about-content">
+            <h2>Our Mission</h2>
+            <b><p>To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where: Students learn in a child-friendly, gender-sensitive, safe, and motivating environment. Teachers facilitate learning and constantly nurture every learner. Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen. Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.</p></b>
+
+            <h2>Our Vision</h2>
+            <b><p>We dream of Filipinos who passionately love their country and whose values and competencies  enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.</p></b>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="alma-matter">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/5E-3WZmdBtI?si=j28A5zVlu3oEYJb3&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Far above where Kanlaon sits <br>'Neath the heavens blue <br> Stands our noble Alma Mater <br>Glorious to view <br> Lift the chorus <br> Speed it onward <br> Praise her to the skies <br> Hail to thee, our Alma Mater <br>Hail dear Negros High <br> Just below the busy humming of Bacolod Town <br> Reared against the arch of heaven <br> Looks she proudly down <br> Lift the chorus <br> Speed it onward <br> Praise her to the skies <br> Hail to thee, our Alma Mater <br> Hail dear Negros High</p>
+        </div>
+        <div class="prayer">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/CaKLNilYRZ0?si=hC6l9kMODC0rehZt&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p> Our loving father <br> We praise your holy name on high <br> Your kingdom we proclaim and we glorify <br> We lift our hearts, our mind and our selves today <br> Guide our thoughts, our acts and all we say. <br> Be in our midst, in all of the things we do <br>That we may know you deeper and be near you <br> As we fulfill our lifelong vacation <br> Lord, be our source of inspiration. <br>
+                Be our hands, in times we lost our healing touch <br> Be our eyes, in times we missed our sights <br> Be our lips, in times we lost kind words to say <br> Be our strength, in times we're lost and tired. <br> Be in our minds, that we shall speak with wisdom <br> Be in our hearts, that we shall teach with love <br> Be in our spirit, that we shall preach with faithfullness <br> All this we pray, through Jesus Christ. <br> AMEN.</p>
+        </div>
+    </div>
+
+    <div class="container3">
+        <h1>History</h1>
+        <b><p>The foundation for the establishment of a Provincial High School in Negros Occidental was already laid in 1901 by the Division Superintendent, George W. Beattie, so that when Act 372 of the Philippine Commission was passed on March 7, 1901, empowering the Provincial Boards of the country to provide funds for the erection or renting and other expenses for a secondary school in the province, Beattie was ready for implementation of the plan, including the hiring of teachers in time for the opening of the school on July 1, 1902.</p></b>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="About/geoge.jpg" style="width:100%;height:400px;">
+                </div>
+             <div class="flip-card-back">
+            <h1>George W. Beattie</h1>
+            <p>George W. Beattie was born April 10, 1859, at the Mission of American Board, Jamaica, West Indies. He passed his boyhood at Oberlin, Ohio, and came to San Bernardino County, Cal., October 14, 1874, locating in Lugonia, now the northern part of the city of Redlands. </p>
+            <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <div class="footer">
+    &copy; 2025 Negros Occidental High School | All Rights Reserved
+</div>
+
+
+
+</body>
+</html>
